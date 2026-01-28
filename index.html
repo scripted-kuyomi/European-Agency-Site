@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EU Travel Weather (7 day Forecast)</title>
+    <link rel="stylesheet" href="master.css"
+></head>
+
+<body>
+    <header class="container">
+        <h1>7-Day forecast for Major European Cities</h1>
+        <p>Select a city to help plan your trip!</p>
+        </header>
+
+    <main class="container">
+        <section class = "controls">
+            <label for ="citySelect">City</label>
+            <select id = "citySelect"></select>
+
+            <button id = "getForecastBtn" type = "button"> Get Forecast</button>
+            <span id = "status" class = "status" aria-live = "polite"></span>
+        </section>
+            
+        <section id="forecast" class = "forecast-grid" aria-label = "7 day forecast"></section>
+        </main>
+    <script src="main.js"></script>
+</body>
+</html>

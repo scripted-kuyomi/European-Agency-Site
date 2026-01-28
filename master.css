@@ -1,0 +1,11 @@
+body {
+    background-color: #d7d7d7;
+    color: black;
+}
+
+.weather-icon {
+    width:60px;
+    height: 60px;
+    display: block;
+    margin: 8px 0;
+}
